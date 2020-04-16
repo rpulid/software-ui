@@ -106,6 +106,9 @@ class CommsLink(QThread):
             startBit = 0
         return startBit
 
+    def (self, process_Alarms):
+        pass
+
     def process_SerialData(self) -> None:
         params = Params()
         params_str = params.to_JSON()
